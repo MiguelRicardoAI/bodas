@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style type="text/css">
+	.example{
+		width: 200px;
+		height: 200px;
+	}
+</style>
+<script src="js/jquery.js"></script>
+<script type="text/javascript"> 
+
+</script>
+</head>
+<body> 
+
+
+<div class="example">
+
+</div>
+</body> 
+
+</html>
+
+
+<script type="text/javascript">
+		$(document).ready( function(){
+	var totalCount = 4;
+	var num = Math.ceil( Math.random() * totalCount );
+    var x = document.getElementsByClassName("hero");
+    x[0].style.background = 'url("img/'+num+'.jpg") no-repeat bottom center';
+
+   } );
+	</script>
